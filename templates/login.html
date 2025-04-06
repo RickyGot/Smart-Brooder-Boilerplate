@@ -4,11 +4,15 @@
 <div class="login-container">
     <h2>Login to Smart Brooder</h2>
     <form method="POST">
-        <label>Username</label>
-        <input type="text" name="username" required>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+        </div>
 
-        <label>Password</label>
-        <input type="password" name="password" required>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
 
         <button type="submit">Login</button>
     </form>
